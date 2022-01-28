@@ -44,7 +44,7 @@ simple_set.add('Kazakh')
 print('simple_set =', simple_set)
 frozen_set = frozenset(['alma', 'shie', 'Kazakh'])
 print('Frozen Set =', frozen_set)
-simple_set.add('orik')
+simple_set.add('orik') 
 print('Updated Frozen Set =', frozen_set, type(frozen_set))
 frozenset(['alma', 'shie', 'Kazakh'])
 
